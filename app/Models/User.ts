@@ -30,7 +30,13 @@ export default class User extends BaseModel {
   }
 
   //RELATIONSHIPS
-  @hasOne(() => Role)
-  public Role: HasOne<typeof Role>
+  // @hasOne(() => Role)
+  // public Role: HasOne<typeof Role>
+
+  // @belongsTo(() => Role)
+  // public role: BelongsTo<typeof Role>
+
+  // @column()
+  // public roleId: number
 
 }
